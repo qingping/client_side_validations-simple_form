@@ -7,7 +7,7 @@
   http://www.opensource.org/licenses/mit-license.php
 ###
 
-ClientSideValidations.formBuilders['SimpleForm::FormBuilder'] =
+clientSideValidations.formBuilders['SimpleForm::FormBuilder'] =
   add: (element, settings, message) ->
     @wrappers[settings.wrapper].add.call(@, element, settings, message)
   remove: (element, settings) ->
