@@ -1,4 +1,3 @@
-
 /*
   Client Side Validations - SimpleForm - v2.0.0.rc.2
   https://github.com/dockyard/client_side_validations-simple_form
@@ -11,7 +10,7 @@
 
 (function() {
 
-  ClientSideValidations.formBuilders['SimpleForm::FormBuilder'] = {
+  clientSideValidations.formBuilders['SimpleForm::FormBuilder'] = {
     add: function(element, settings, message) {
       return this.wrappers[settings.wrapper].add.call(this, element, settings, message);
     },
